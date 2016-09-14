@@ -37,7 +37,7 @@
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
 			<key>FallbackHeader</key>
-			<string>#import &lt;UIKit/UIKit.h&gt;</string>
+			<string>#import &quot;BaseViewController.h&quot;</string>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
@@ -54,46 +54,7 @@
 			<key>Values</key>
 			<array>
 				<string>BaseViewController</string>
-				<string>NSObject</string>
 			</array>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>languageChoice</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Language:</string>
-			<key>Description</key>
-			<string>The implementation language</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>Objective-C</string>
-			<key>Values</key>
-			<array>
-				<string>Swift</string>
-				<string>Objective-C</string>
-			</array>
-			<key>MainTemplateFiles</key>
-			<dict>
-				<key>Swift</key>
-				<string>___FILEBASENAME___.swift</string>
-				<key>Objective-C</key>
-				<string>___FILEBASENAME___.m</string>
-			</dict>
-			<key>AllowedTypes</key>
-			<dict>
-				<key>Swift</key>
-				<array>
-					<string>public.swift-source</string>
-				</array>
-				<key>Objective-C</key>
-				<array>
-					<string>public.objective-c-source</string>
-					<string>public.objective-c-plus-plus-source</string>
-				</array>
-			</dict>
 		</dict>
 	</array>
 	<key>Platforms</key>

@@ -47,7 +47,7 @@
 			<key>Suffixes</key>
 			<dict>
 				<key>BaseTableViewController</key>
-				<string>Controller</string>
+				<string>ViewController</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>
